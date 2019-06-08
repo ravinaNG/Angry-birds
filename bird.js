@@ -1,13 +1,13 @@
 class Bird{
-    constructor(x,y,r){
+    constructor(x,y,redious){
         this.x=x;
         this.y=y;
-        this.r=r;
+        this.redious=redious;
         
     }
 
     show(){
         fill(255);
-        circle(this.x,this.y,this.r);
+        circle(this.x,this.y,this.redious);
     }
 }

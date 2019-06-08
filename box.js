@@ -1,12 +1,12 @@
 class Box{
-    constructor(x,y,w,h){
+    constructor(x,y,width,height){
         this.x=x;
         this.y=y;
-        this.w=w;
-        this.h=h;
+        this.width=width;
+        this.height=height;
     }
     show(){
         fill(555);
-        rect(this.x,this.y,this.w,this.h);
+        rect(this.x,this.y,this.width,this.height);
     }
 }
